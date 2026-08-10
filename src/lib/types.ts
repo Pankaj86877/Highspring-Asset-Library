@@ -30,6 +30,8 @@ export interface SearchResource {
   previewImage?: string;
   thumbnail?: string;
   provider?: string;
+  year?: string;
+  organization?: string;
   createdAt: string;
   updatedAt: string;
 }

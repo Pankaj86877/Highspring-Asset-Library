@@ -70,10 +70,22 @@ export function ResultCard({ resource }: ResultCardProps) {
           </p>
           
           <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 dark:text-slate-400 mb-4">
-            {resource.city && resource.state && (
+            {resource.city && (
               <div className="flex items-center gap-1.5">
                 <MapPin className="w-4 h-4 text-slate-400" />
-                {resource.city}, {resource.state}
+                {resource.city}{resource.state ? `, ${resource.state}` : ''}
+              </div>
+            )}
+            {resource.organization && (
+              <div className="flex items-center gap-1.5">
+                <Building className="w-4 h-4 text-slate-400" />
+                {resource.organization}
+              </div>
+            )}
+            {resource.year && (
+              <div className="flex items-center gap-1.5">
+                <Calendar className="w-4 h-4 text-slate-400" />
+                {resource.year}
               </div>
             )}
             {resource.provider && (
