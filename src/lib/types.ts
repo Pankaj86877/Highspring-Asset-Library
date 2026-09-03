@@ -14,7 +14,9 @@ export interface SearchResource {
   websiteLink?: string;
   documentLink?: string;
   googleMapsLink?: string;
+  language?: string;
   address?: string;
+  gstin?: string;
   phone?: string;
   email?: string;
   previewImage?: string;
