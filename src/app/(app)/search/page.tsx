@@ -4,31 +4,23 @@ import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { SearchBox } from "@/components/ui/SearchBox";
 import { ResultCard } from "@/components/ui/ResultCard";
-import { AddressModule } from "@/components/ui/AddressModule";
 import { searchResources } from "@/lib/search";
 import { SearchResource, ResourceCategory } from "@/lib/types";
 import { Loader2, SlidersHorizontal, AlertCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const CATEGORIES: ResourceCategory[] = [
-  "All",
-  "Addresses",
-  "Images",
-  "Videos",
-  "Documents",
+  "Address",
   "Google Drive",
-  "HR",
-  "Marketing",
-  "Policies",
-  "Contacts",
-  "Events",
-  "Links"
+  "Documents",
+  "Links",
+  "Employee"
 ];
 
 function SearchResultsContent() {
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get("q") || "";
-  const initialCategory = (searchParams.get("category") as ResourceCategory) || "All";
+  const initialCategory = (searchParams.get("category") as ResourceCategory) || "Google Drive";
 
   const [query, setQuery] = useState(initialQuery);
   const [activeCategory, setActiveCategory] = useState<ResourceCategory>(initialCategory);
@@ -78,12 +70,9 @@ function SearchResultsContent() {
 
       {/* Main Results Area */}
       <main className="flex-1 space-y-6">
-        {activeCategory === "Addresses" ? (
-          <AddressModule />
-        ) : (
-          <>
-            <div className="bg-white dark:bg-slate-900 p-4 sm:p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-              <SearchBox initialQuery={query} />
+        <>
+          <div className="bg-white dark:bg-slate-900 p-4 sm:p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+              <SearchBox initialQuery={query} activeCategory={activeCategory} />
             </div>
 
             <div className="space-y-4">
@@ -102,7 +91,11 @@ function SearchResultsContent() {
                   <div className="w-16 h-16 bg-slate-100 dark:bg-slate-800 rounded-full flex items-center justify-center mb-4">
                     <AlertCircle className="w-8 h-8 text-slate-400" />
                   </div>
-                  <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">No results found</h3>
+                  <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
+                    {activeCategory === "Google Drive" ? "No matching Google Drive folders found" :
+                     activeCategory === "Documents" ? "No matching documents found" :
+                     "No matching results found"}
+                  </h3>
                   <p className="text-slate-500 dark:text-slate-400 max-w-md">
                     We couldn't find any resources matching your search. Try adjusting your keywords or category filter.
                   </p>
@@ -115,8 +108,7 @@ function SearchResultsContent() {
                 ))}
               </div>
             </div>
-          </>
-        )}
+        </>
       </main>
     </div>
   );

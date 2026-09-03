@@ -4,21 +4,25 @@ import { SearchBox } from "@/components/ui/SearchBox";
 import { Folder, MapPin, Image as ImageIcon, Video, FileText, Link as LinkIcon, Users, Building, ShieldCheck, Briefcase, Calendar } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { getNewRequestsCount } from "@/lib/requests";
 
 const CATEGORIES = [
-  { name: "Addresses", icon: MapPin, color: "text-red-500", bg: "bg-red-50 dark:bg-red-500/10" },
+  { name: "Address", icon: MapPin, color: "text-red-500", bg: "bg-red-50 dark:bg-red-500/10" },
   { name: "Google Drive", icon: Folder, color: "text-blue-500", bg: "bg-blue-50 dark:bg-blue-500/10" },
-  { name: "Images", icon: ImageIcon, color: "text-emerald-500", bg: "bg-emerald-50 dark:bg-emerald-500/10" },
-  { name: "Videos", icon: Video, color: "text-purple-500", bg: "bg-purple-50 dark:bg-purple-500/10" },
   { name: "Documents", icon: FileText, color: "text-amber-500", bg: "bg-amber-50 dark:bg-amber-500/10" },
-  { name: "HR", icon: Users, color: "text-pink-500", bg: "bg-pink-50 dark:bg-pink-500/10" },
-  { name: "Marketing", icon: Building, color: "text-indigo-500", bg: "bg-indigo-50 dark:bg-indigo-500/10" },
-  { name: "Policies", icon: ShieldCheck, color: "text-teal-500", bg: "bg-teal-50 dark:bg-teal-500/10" },
-  { name: "Events", icon: Calendar, color: "text-orange-500", bg: "bg-orange-50 dark:bg-orange-500/10" },
   { name: "Links", icon: LinkIcon, color: "text-slate-500", bg: "bg-slate-50 dark:bg-slate-500/10" },
+  { name: "Employee", icon: Users, color: "text-pink-500", bg: "bg-pink-50 dark:bg-pink-500/10" },
+  { name: "Requests", icon: Briefcase, color: "text-indigo-500", bg: "bg-indigo-50 dark:bg-indigo-500/10" },
 ];
 
 export default function Home() {
+  const [newRequestsCount, setNewRequestsCount] = useState(0);
+
+  useEffect(() => {
+    getNewRequestsCount().then(setNewRequestsCount).catch(console.error);
+  }, []);
+
   return (
     <div className="flex-1 flex flex-col items-center justify-center w-full max-w-5xl mx-auto px-4 py-12 sm:py-24">
       <motion.div 
@@ -56,14 +60,19 @@ export default function Home() {
             return (
               <Link
                 key={category.name}
-                href={`/search?category=${encodeURIComponent(category.name)}`}
+                href={category.name === "Requests" ? "/requests" : `/search?category=${encodeURIComponent(category.name)}`}
                 className="group flex flex-col items-center justify-center p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-blue-500 hover:shadow-lg transition-all"
               >
-                <div className={`p-4 rounded-full ${category.bg} mb-3 group-hover:scale-110 transition-transform duration-300`}>
+                <div className={`relative p-4 rounded-full ${category.bg} mb-3 group-hover:scale-110 transition-transform duration-300`}>
                   <Icon className={`w-6 h-6 ${category.color}`} />
+                  {category.name === "Requests" && newRequestsCount > 0 && (
+                    <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-[11px] font-bold text-white shadow-sm ring-2 ring-white dark:ring-slate-900">
+                      {newRequestsCount}
+                    </span>
+                  )}
                 </div>
                 <span className="text-sm font-medium text-slate-700 dark:text-slate-300 group-hover:text-slate-900 dark:group-hover:text-white transition-colors">
-                  {category.name}
+                  {category.name} {category.name === "Requests" && newRequestsCount > 0 ? `(${newRequestsCount})` : ""}
                 </span>
               </Link>
             );

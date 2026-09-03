@@ -11,9 +11,10 @@ interface SearchBoxProps {
   initialQuery?: string;
   autoFocus?: boolean;
   size?: "lg" | "default";
+  activeCategory?: string;
 }
 
-export function SearchBox({ initialQuery = "", autoFocus = false, size = "default" }: SearchBoxProps) {
+export function SearchBox({ initialQuery = "", autoFocus = false, size = "default", activeCategory = "Google Drive" }: SearchBoxProps) {
   const [query, setQuery] = useState(initialQuery);
   const [isSearching, setIsSearching] = useState(false);
   const [suggestions, setSuggestions] = useState<SearchResource[]>([]);
@@ -42,7 +43,7 @@ export function SearchBox({ initialQuery = "", autoFocus = false, size = "defaul
     const fetchSuggestions = async () => {
       if (query.trim().length > 1) {
         setIsSearching(true);
-        const results = await searchResources(query);
+        const results = await searchResources(query, activeCategory);
         setSuggestions(results.slice(0, 5)); // show top 5 suggestions
         setIsSearching(false);
         setShowSuggestions(true);

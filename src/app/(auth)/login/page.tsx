@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Eye, EyeOff, Loader2, Lock, User } from "lucide-react";
+import { authenticate } from "@/lib/auth";
 
 export default function LoginPage() {
   const [username, setUsername] = useState("");
@@ -17,16 +18,17 @@ export default function LoginPage() {
     setError("");
     setIsLoading(true);
 
-    // Simulate network request
-    await new Promise((resolve) => setTimeout(resolve, 800));
+    const result = await authenticate(username, password);
 
-    if (username === "HIL" && password === "Highspring360") {
-      // Set an authentication cookie (expires in 1 day for demo purposes)
-      document.cookie = "auth_session=true; path=/; max-age=86400; SameSite=Strict";
-      router.push("/");
-      router.refresh(); // Force a refresh to update layout state if needed
+    if (result.success && result.user) {
+      if (result.user.role === "Requester") {
+        router.push("/requests");
+      } else {
+        router.push("/");
+      }
+      router.refresh();
     } else {
-      setError("Invalid username or password.");
+      setError(result.error || "Invalid username or password.");
       setIsLoading(false);
     }
   };

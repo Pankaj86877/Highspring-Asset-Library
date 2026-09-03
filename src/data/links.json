@@ -1,0 +1,62 @@
+[
+  {
+    "id": "link-1788347153848",
+    "type": "link",
+    "title": "Linkedin",
+    "category": "Links",
+    "description": "LinkedIn is used to showcase our professional presence, industry expertise, social activities, and service offerings. Here, we share company updates, thought leadership, achievements, employee activities, and insights about the services we provide to engage with our professional network and audience.",
+    "websiteLink": "https://www.linkedin.com/company/highspring-india-formerly-vaco-binary-semantics/posts/?feedView=all",
+    "keywords": [],
+    "tags": [],
+    "createdAt": "2026-09-02T11:05:53.848Z",
+    "updatedAt": "2026-09-02T11:05:53.848Z"
+  },
+  {
+    "id": "link-1788347190459",
+    "type": "link",
+    "title": "Instagram",
+    "category": "Links",
+    "description": "**Instagram**\n\nInstagram is used to showcase our brand visually and engage with our audience through creative content. Here, we share social activities, company culture, events, achievements, employee highlights, service offerings, and visual updates that reflect our brand and connect with a wider audience.",
+    "websiteLink": "https://www.instagram.com/highspring.india/",
+    "keywords": [],
+    "tags": [],
+    "createdAt": "2026-09-02T11:06:30.459Z",
+    "updatedAt": "2026-09-02T11:06:30.459Z"
+  },
+  {
+    "id": "link-1788347224591",
+    "type": "link",
+    "title": "Facebook",
+    "category": "Links",
+    "description": "**Facebook**\n\nFacebook is used to connect with our broader audience and build an active online community. Here, we share company updates, social activities, events, achievements, services, industry insights, and engaging content to increase brand awareness and strengthen audience engagement.",
+    "websiteLink": "https://www.facebook.com/HighspringIndia/",
+    "keywords": [],
+    "tags": [],
+    "createdAt": "2026-09-02T11:07:04.591Z",
+    "updatedAt": "2026-09-02T11:07:04.591Z"
+  },
+  {
+    "id": "link-1788347372915",
+    "type": "link",
+    "title": "Inlog",
+    "category": "Links",
+    "description": "A centralized employee portal used to manage employee profiles, apply for leave, access offer letters and updated documents, and stay connected with important HR and company information.",
+    "websiteLink": "https://sirius.inlognetwork.co.in/web/login",
+    "keywords": [],
+    "tags": [],
+    "createdAt": "2026-09-02T11:09:32.915Z",
+    "updatedAt": "2026-09-02T11:09:32.915Z"
+  },
+  {
+    "id": "link-1788347833758",
+    "type": "link",
+    "title": "Salary slip",
+    "category": "Links",
+    "description": "A centralized section where employees can access and download their monthly salary slips, including salary details, deductions, and other payment-related information.",
+    "websiteLink": "https://payslip.highspring.in/ess/Account/Login",
+    "keywords": [],
+    "tags": [],
+    "createdAt": "2026-09-02T11:17:13.758Z",
+    "updatedAt": "2026-09-02T11:54:15.898Z"
+  }
+]

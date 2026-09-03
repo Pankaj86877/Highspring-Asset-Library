@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "address-1-1788345364",
+    "type": "address",
+    "title": "Highspring New Delhi Office",
+    "keywords": [
+      "new delhi",
+      "delhi",
+      "office"
+    ],
+    "category": "Address",
+    "description": "H No-E-22 Shop No-1 Block-E, Sidhatri Enclave Bhagwati Garden Extn, Uttam Nagar, Near Lal Farm, New Delhi - 110059",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "language": "Hindi",
+    "gstin": "07AAOFV6331M1ZK",
+    "address": "H No-E-22 Shop No-1 Block-E, Sidhatri Enclave Bhagwati Garden Extn, Uttam Nagar, Near Lal Farm, New Delhi - 110059",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771596",
+    "updatedAt": "2026-09-02T16:06:04.771598"
+  },
+  {
+    "id": "address-2-1788345364",
+    "type": "address",
+    "title": "Highspring Rajkot Office",
+    "keywords": [
+      "rajkot",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "5 Shivans Comp, FLR-3, Shop-1 Junction Plot-St-5, Main Road Village Rajkot, Taluka Rajkot, Gujarat - 360001",
+    "city": "Rajkot",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "5 Shivans Comp, FLR-3, Shop-1 Junction Plot-St-5, Main Road Village Rajkot, Taluka Rajkot, Gujarat - 360001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771601",
+    "updatedAt": "2026-09-02T16:06:04.771602"
+  },
+  {
+    "id": "address-3-1788345364",
+    "type": "address",
+    "title": "Highspring Gandhinagar Office",
+    "keywords": [
+      "gandhinagar",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Shop No.10, Block No-A, Siddharth Square Vavol, Ta DI, Gandhinagar, Gujarat - 382016",
+    "city": "Gandhinagar",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "Shop No.10, Block No-A, Siddharth Square Vavol, Ta DI, Gandhinagar, Gujarat - 382016",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771604",
+    "updatedAt": "2026-09-02T16:06:04.771605"
+  },
+  {
+    "id": "address-4-1788345364",
+    "type": "address",
+    "title": "Highspring Godhra Office",
+    "keywords": [
+      "godhra",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Ankleshvar Road, Godhra, Village Godhra (M+OG), Taluka: Godhra, District: Panch Mahals, Gujarat - 389001",
+    "city": "Godhra",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "Ankleshvar Road, Godhra, Village Godhra (M+OG), Taluka: Godhra, District: Panch Mahals, Gujarat - 389001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771607",
+    "updatedAt": "2026-09-02T16:06:04.771608"
+  },
+  {
+    "id": "address-5-1788345364",
+    "type": "address",
+    "title": "Highspring Kachchh Office",
+    "keywords": [
+      "kachchh",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "PNC-497, Raval Vadi Rlsahyog NGR, Sri Ni 10, Bhuj, Kachchh, Gujarat - 370001",
+    "city": "Kachchh",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "PNC-497, Raval Vadi Rlsahyog NGR, Sri Ni 10, Bhuj, Kachchh, Gujarat - 370001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771610",
+    "updatedAt": "2026-09-02T16:06:04.771611"
+  },
+  {
+    "id": "address-6-1788345364",
+    "type": "address",
+    "title": "Highspring Bhavnagar Office",
+    "keywords": [
+      "bhavnagar",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "SH-4, Khodiyar Shopping Center, Bhagavatai Men Wear, Bhavnagar Mcorp OG, Bhavnagar, Gujarat - 364002",
+    "city": "Bhavnagar",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "SH-4, Khodiyar Shopping Center, Bhagavatai Men Wear, Bhavnagar Mcorp OG, Bhavnagar, Gujarat - 364002",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771613",
+    "updatedAt": "2026-09-02T16:06:04.771614"
+  },
+  {
+    "id": "address-7-1788345364",
+    "type": "address",
+    "title": "Highspring Junagadh Office",
+    "keywords": [
+      "junagadh",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Khamdhrol, Gokul Dham Society, Beside Bhoomi Apartment, Junagadh, Gujarat - 362037",
+    "city": "Junagadh",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "Khamdhrol, Gokul Dham Society, Beside Bhoomi Apartment, Junagadh, Gujarat - 362037",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771617",
+    "updatedAt": "2026-09-02T16:06:04.771618"
+  },
+  {
+    "id": "address-8-1788345364",
+    "type": "address",
+    "title": "Highspring Mehsana Office",
+    "keywords": [
+      "mehsana",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "F-1,Dhanlaxmi Market, Visnagar Link Road Mehsana, Village Mehsana, Taluka Mehsana, Gujarat - 384001",
+    "city": "Mehsana",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "F-1,Dhanlaxmi Market, Visnagar Link Road Mehsana, Village Mehsana, Taluka Mehsana, Gujarat - 384001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771620",
+    "updatedAt": "2026-09-02T16:06:04.771621"
+  },
+  {
+    "id": "address-9-1788345364",
+    "type": "address",
+    "title": "Highspring Anand Office",
+    "keywords": [
+      "anand",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "L.G B/2, Vergo Complex, Santram Road, Nadiad, Kheda, Gujarat - 387001",
+    "city": "Anand",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "L.G B/2, Vergo Complex, Santram Road, Nadiad, Kheda, Gujarat - 387001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771624",
+    "updatedAt": "2026-09-02T16:06:04.771625"
+  },
+  {
+    "id": "address-10-1788345364",
+    "type": "address",
+    "title": "Highspring Banaskantha Office",
+    "keywords": [
+      "banaskantha",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "11/1069, Shivaji Park Ami  Road, Near Kanak Distributor, Palanpur, Gujarat - 385001",
+    "city": "Banaskantha",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "11/1069, Shivaji Park Ami  Road, Near Kanak Distributor, Palanpur, Gujarat - 385001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771627",
+    "updatedAt": "2026-09-02T16:06:04.771628"
+  },
+  {
+    "id": "address-11-1788345364",
+    "type": "address",
+    "title": "Highspring Vadodara Office",
+    "keywords": [
+      "vadodara",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "B-202, Shree Sidheshwar Plaza, New VIP Road Vadodara, Gujarat - 390019",
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "B-202, Shree Sidheshwar Plaza, New VIP Road Vadodara, Gujarat - 390019",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771630",
+    "updatedAt": "2026-09-02T16:06:04.771631"
+  },
+  {
+    "id": "address-12-1788345364",
+    "type": "address",
+    "title": "Highspring Himmat Nagar Office",
+    "keywords": [
+      "himmat nagar",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Shop No. 24, Ground Floor, Z Point Complex, Near Mahila, Collage, Malivada, Himatnagar, Gujarat - 383220",
+    "city": "Himmat Nagar",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "Shop No. 24, Ground Floor, Z Point Complex, Near Mahila, Collage, Malivada, Himatnagar, Gujarat - 383220",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771633",
+    "updatedAt": "2026-09-02T16:06:04.771634"
+  },
+  {
+    "id": "address-13-1788345364",
+    "type": "address",
+    "title": "Highspring Jamnagar Office",
+    "keywords": [
+      "jamnagar",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Abhay Shopping Centre, First F Office No. 4 Jamnagar, Gujarat - 361001",
+    "city": "Jamnagar",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "Abhay Shopping Centre, First F Office No. 4 Jamnagar, Gujarat - 361001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771636",
+    "updatedAt": "2026-09-02T16:06:04.771637"
+  },
+  {
+    "id": "address-14-1788345364",
+    "type": "address",
+    "title": "Highspring Surat Office",
+    "keywords": [
+      "surat",
+      "gujarat",
+      "office"
+    ],
+    "category": "Address",
+    "description": "401 Westurn Business Hub, NR. Veerbhadra Avenu, Surat (M Corp+OG) (Part), Surat City, Surat - 395003",
+    "city": "Surat",
+    "state": "Gujarat",
+    "language": "Gujarati",
+    "gstin": "24AAOFV6331M1ZO",
+    "address": "401 Westurn Business Hub, NR. Veerbhadra Avenu, Surat (M Corp+OG) (Part), Surat City, Surat - 395003",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771639",
+    "updatedAt": "2026-09-02T16:06:04.771640"
+  },
+  {
+    "id": "address-15-1788345364",
+    "type": "address",
+    "title": "Highspring Sonipat Office",
+    "keywords": [
+      "sonipat",
+      "haryana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "64/29, Gali No 3, Malviya Nagar, Sonipat, Haryana - 131001",
+    "city": "Sonipat",
+    "state": "Haryana",
+    "language": "Hindi",
+    "gstin": "06AAOFV6331M1ZM",
+    "address": "64/29, Gali No 3, Malviya Nagar, Sonipat, Haryana - 131001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771642",
+    "updatedAt": "2026-09-02T16:06:04.771643"
+  },
+  {
+    "id": "address-16-1788345364",
+    "type": "address",
+    "title": "Highspring Panipat Office",
+    "keywords": [
+      "panipat",
+      "haryana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "618/11, Saini Mohalla, Panipat, Haryana - 132103",
+    "city": "Panipat",
+    "state": "Haryana",
+    "language": "Hindi",
+    "gstin": "06AAOFV6331M1ZM",
+    "address": "618/11, Saini Mohalla, Panipat, Haryana - 132103",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771645",
+    "updatedAt": "2026-09-02T16:06:04.771646"
+  },
+  {
+    "id": "address-17-1788345364",
+    "type": "address",
+    "title": "Highspring Karnal Office",
+    "keywords": [
+      "karnal",
+      "haryana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Gali No.01, Shiv Colony, Karnal-Haryana - 132001",
+    "city": "Karnal",
+    "state": "Haryana",
+    "language": "Hindi",
+    "gstin": "06AAOFV6331M1ZM",
+    "address": "Gali No.01, Shiv Colony, Karnal-Haryana - 132001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771648",
+    "updatedAt": "2026-09-02T16:06:04.771648"
+  },
+  {
+    "id": "address-18-1788345364",
+    "type": "address",
+    "title": "Highspring Hisar Office",
+    "keywords": [
+      "hisar",
+      "haryana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Shop No. 230, Tilak Gate Bus Stand, Hisar , Haryana - 1245001",
+    "city": "Hisar",
+    "state": "Haryana",
+    "language": "Hindi",
+    "gstin": "06AAOFV6331M1ZM",
+    "address": "Shop No. 230, Tilak Gate Bus Stand, Hisar , Haryana - 1245001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771652",
+    "updatedAt": "2026-09-02T16:06:04.771653"
+  },
+  {
+    "id": "address-19-1788345364",
+    "type": "address",
+    "title": "Highspring Bhiwani Office",
+    "keywords": [
+      "bhiwani",
+      "haryana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "S O Shri Niwas, Dhana Road Laxmi Nagar, Near Vvro, Bhiwani, Haryana - 127021",
+    "city": "Bhiwani",
+    "state": "Haryana",
+    "language": "Hindi",
+    "gstin": "06AAOFV6331M1ZM",
+    "address": "S O Shri Niwas, Dhana Road Laxmi Nagar, Near Vvro, Bhiwani, Haryana - 127021",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771655",
+    "updatedAt": "2026-09-02T16:06:04.771656"
+  },
+  {
+    "id": "address-20-1788345364",
+    "type": "address",
+    "title": "Highspring Hubli Office",
+    "keywords": [
+      "hubli",
+      "karnataka",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Plot-18, Nagesh orcade, Shanti Colony, Hubli, Karnataka - 580032",
+    "city": "Hubli",
+    "state": "Karnataka",
+    "language": "Kannada",
+    "gstin": "29AAOFV6331M1ZE",
+    "address": "Plot-18, Nagesh orcade, Shanti Colony, Hubli, Karnataka - 580032",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771658",
+    "updatedAt": "2026-09-02T16:06:04.771659"
+  },
+  {
+    "id": "address-21-1788345364",
+    "type": "address",
+    "title": "Highspring Shivamogga Office",
+    "keywords": [
+      "shivamogga",
+      "karnataka",
+      "office"
+    ],
+    "category": "Address",
+    "description": "2nd Cross, Venkatesha Nagar, Shimogga, Karnataka - 577201",
+    "city": "Shivamogga",
+    "state": "Karnataka",
+    "language": "Kannada",
+    "gstin": "29AAOFV6331M1ZE",
+    "address": "2nd Cross, Venkatesha Nagar, Shimogga, Karnataka - 577201",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771661",
+    "updatedAt": "2026-09-02T16:06:04.771661"
+  },
+  {
+    "id": "address-22-1788345364",
+    "type": "address",
+    "title": "Highspring Udupi Office",
+    "keywords": [
+      "udupi",
+      "karnataka",
+      "office"
+    ],
+    "category": "Address",
+    "description": "DNO: 3-21 (2) Cholebettu Kukkehalli Village & Post-Udupi, Karnataka - 576124",
+    "city": "Udupi",
+    "state": "Karnataka",
+    "language": "Kannada",
+    "gstin": "29AAOFV6331M1ZE",
+    "address": "DNO: 3-21 (2) Cholebettu Kukkehalli Village & Post-Udupi, Karnataka - 576124",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771665",
+    "updatedAt": "2026-09-02T16:06:04.771666"
+  },
+  {
+    "id": "address-23-1788345364",
+    "type": "address",
+    "title": "Highspring Belgaum Office",
+    "keywords": [
+      "belgaum",
+      "karnataka",
+      "office"
+    ],
+    "category": "Address",
+    "description": "No.75, R B Sheeter, Ramathirthanagar, Belgavi, Belagavi (Belgaum), Karnataka - 590001",
+    "city": "Belgaum",
+    "state": "Karnataka",
+    "language": "Kannada",
+    "gstin": "29AAOFV6331M1ZE",
+    "address": "No.75, R B Sheeter, Ramathirthanagar, Belgavi, Belagavi (Belgaum), Karnataka - 590001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771669",
+    "updatedAt": "2026-09-02T16:06:04.771670"
+  },
+  {
+    "id": "address-24-1788345364",
+    "type": "address",
+    "title": "Highspring Bangalore Office",
+    "keywords": [
+      "bangalore",
+      "karnataka",
+      "office"
+    ],
+    "category": "Address",
+    "description": "No. 13/4, Bommanhally Blore, Karnataka - 560068",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "language": "Kannada",
+    "gstin": "29AAOFV6331M1ZE",
+    "address": "No. 13/4, Bommanhally Blore, Karnataka - 560068",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771673",
+    "updatedAt": "2026-09-02T16:06:04.771673"
+  },
+  {
+    "id": "address-25-1788345364",
+    "type": "address",
+    "title": "Highspring Bijapur Office",
+    "keywords": [
+      "bijapur",
+      "karnataka",
+      "office"
+    ],
+    "category": "Address",
+    "description": "H No. 54, Ward No. 31 Near Jod, Gummai, Bijapur, Karnataka - 586101",
+    "city": "Bijapur",
+    "state": "Karnataka",
+    "language": "Kannada",
+    "gstin": "29AAOFV6331M1ZE",
+    "address": "H No. 54, Ward No. 31 Near Jod, Gummai, Bijapur, Karnataka - 586101",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771676",
+    "updatedAt": "2026-09-02T16:06:04.771677"
+  },
+  {
+    "id": "address-26-1788345364",
+    "type": "address",
+    "title": "Highspring Idukki Office",
+    "keywords": [
+      "idukki",
+      "kerala",
+      "office"
+    ],
+    "category": "Address",
+    "description": "28/566, Thakidiyil, Idukki, Kerala - 685508",
+    "city": "Idukki",
+    "state": "Kerala",
+    "language": "Malayalam",
+    "gstin": "32AAOFV6331M1ZR",
+    "address": "28/566, Thakidiyil, Idukki, Kerala - 685508",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771679",
+    "updatedAt": "2026-09-02T16:06:04.771680"
+  },
+  {
+    "id": "address-27-1788345364",
+    "type": "address",
+    "title": "Highspring Thiruvananthapuram Office",
+    "keywords": [
+      "thiruvananthapuram",
+      "kerala",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Vengalloor Veedu, Elampa, Attingal, Kerala - 695101",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "language": "Malayalam",
+    "gstin": "32AAOFV6331M1ZR",
+    "address": "Vengalloor Veedu, Elampa, Attingal, Kerala - 695101",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771683",
+    "updatedAt": "2026-09-02T16:06:04.771683"
+  },
+  {
+    "id": "address-28-1788345364",
+    "type": "address",
+    "title": "Highspring Ernamkulam Office",
+    "keywords": [
+      "ernamkulam",
+      "kerala",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Kannankkeri, Eloor East, Udyogamandal-Ernakulam, Kerala - 683110",
+    "city": "Ernamkulam",
+    "state": "Kerala",
+    "language": "Malayalam",
+    "gstin": "32AAOFV6331M1ZR",
+    "address": "Kannankkeri, Eloor East, Udyogamandal-Ernakulam, Kerala - 683110",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771685",
+    "updatedAt": "2026-09-02T16:06:04.771692"
+  },
+  {
+    "id": "address-29-1788345364",
+    "type": "address",
+    "title": "Highspring Mallapuram Office",
+    "keywords": [
+      "mallapuram",
+      "kerala",
+      "office"
+    ],
+    "category": "Address",
+    "description": "S/O Ahammed Kutti, Perumballi, Munambath, Othukkunga, Mallapuram, Kerala - 676528",
+    "city": "Mallapuram",
+    "state": "Kerala",
+    "language": "Malayalam",
+    "gstin": "32AAOFV6331M1ZR",
+    "address": "S/O Ahammed Kutti, Perumballi, Munambath, Othukkunga, Mallapuram, Kerala - 676528",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771694",
+    "updatedAt": "2026-09-02T16:06:04.771695"
+  },
+  {
+    "id": "address-30-1788345364",
+    "type": "address",
+    "title": "Highspring Indore Office",
+    "keywords": [
+      "indore",
+      "madhya pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Plot No. 601-A, 601-B, 602, 603-A, 6th (Sixth) floor, \"NRK BUSINESS PARK\" Builton, Block No. B-1, Scheme No.54, P.U (commercial), Indore (M.P) 452001",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "language": "Hindi",
+    "gstin": "23AAOFV6331M1ZQ",
+    "address": "Plot No. 601-A, 601-B, 602, 603-A, 6th (Sixth) floor, \"NRK BUSINESS PARK\" Builton, Block No. B-1, Scheme No.54, P.U (commercial), Indore (M.P) 452001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771697",
+    "updatedAt": "2026-09-02T16:06:04.771698"
+  },
+  {
+    "id": "address-31-1788345364",
+    "type": "address",
+    "title": "Highspring Aurangabad Office",
+    "keywords": [
+      "aurangabad",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "N-11 C- Sector, Plot no.2, Part B, Hudco, Aurangabad, Maharashtra - 431001",
+    "city": "Aurangabad",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "N-11 C- Sector, Plot no.2, Part B, Hudco, Aurangabad, Maharashtra - 431001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771700",
+    "updatedAt": "2026-09-02T16:06:04.771701"
+  },
+  {
+    "id": "address-32-1788345364",
+    "type": "address",
+    "title": "Highspring Kolhapur Office",
+    "keywords": [
+      "kolhapur",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "RS NO 232/6/4, Near Hanuman Temple Jadhav wadi Main Road E Ward, Kolhapur, Maharashtra - 416005",
+    "city": "Kolhapur",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "RS NO 232/6/4, Near Hanuman Temple Jadhav wadi Main Road E Ward, Kolhapur, Maharashtra - 416005",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771703",
+    "updatedAt": "2026-09-02T16:06:04.771704"
+  },
+  {
+    "id": "address-33-1788345364",
+    "type": "address",
+    "title": "Highspring Nashik Office",
+    "keywords": [
+      "nashik",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Flat No. B/2, Anmol APPT, Happy Home Colony Dwarka, Nashik, Maharashtra - 422011",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Flat No. B/2, Anmol APPT, Happy Home Colony Dwarka, Nashik, Maharashtra - 422011",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771706",
+    "updatedAt": "2026-09-02T16:06:04.771707"
+  },
+  {
+    "id": "address-34-1788345364",
+    "type": "address",
+    "title": "Highspring Latur Office",
+    "keywords": [
+      "latur",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "3933/4/2, Vikas Nagar, Latur, Maharashtra - 413512",
+    "city": "Latur",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "3933/4/2, Vikas Nagar, Latur, Maharashtra - 413512",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771709",
+    "updatedAt": "2026-09-02T16:06:04.771710"
+  },
+  {
+    "id": "address-35-1788345364",
+    "type": "address",
+    "title": "Highspring Satara Office",
+    "keywords": [
+      "satara",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "S No. 231, D Wing, Flat No. 305, Rajgad Residency, Near Mangal murti Karyalay, Amarlaxmi, Satara, Maharashtra - 415004",
+    "city": "Satara",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "S No. 231, D Wing, Flat No. 305, Rajgad Residency, Near Mangal murti Karyalay, Amarlaxmi, Satara, Maharashtra - 415004",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771712",
+    "updatedAt": "2026-09-02T16:06:04.771712"
+  },
+  {
+    "id": "address-36-1788345364",
+    "type": "address",
+    "title": "Highspring Osmanabad Office",
+    "keywords": [
+      "osmanabad",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Sanja Was Galli, TQ & Dist. - Osmanabad, Maharashtra - 413501",
+    "city": "Osmanabad",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Sanja Was Galli, TQ & Dist. - Osmanabad, Maharashtra - 413501",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771715",
+    "updatedAt": "2026-09-02T16:06:04.771715"
+  },
+  {
+    "id": "address-37-1788345364",
+    "type": "address",
+    "title": "Highspring Parbhani Office",
+    "keywords": [
+      "parbhani",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "H. No-024, Rajendra Giri Nagar, Maharashtra - 431401",
+    "city": "Parbhani",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "H. No-024, Rajendra Giri Nagar, Maharashtra - 431401",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771717",
+    "updatedAt": "2026-09-02T16:06:04.771718"
+  },
+  {
+    "id": "address-38-1788345364",
+    "type": "address",
+    "title": "Highspring Sangali Office",
+    "keywords": [
+      "sangali",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "C. S. NO 4773, Opposite Bharati Hospital, Walnesswadi, Sagli, Maharashtra - 416416",
+    "city": "Sangali",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "C. S. NO 4773, Opposite Bharati Hospital, Walnesswadi, Sagli, Maharashtra - 416416",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771720",
+    "updatedAt": "2026-09-02T16:06:04.771721"
+  },
+  {
+    "id": "address-39-1788345364",
+    "type": "address",
+    "title": "Highspring Ratnagiri Office",
+    "keywords": [
+      "ratnagiri",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "65B, New Veg Market, Ratnagiri, Maharashtra - 415612",
+    "city": "Ratnagiri",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "65B, New Veg Market, Ratnagiri, Maharashtra - 415612",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771723",
+    "updatedAt": "2026-09-02T16:06:04.771724"
+  },
+  {
+    "id": "address-40-1788345364",
+    "type": "address",
+    "title": "Highspring Nanded Office",
+    "keywords": [
+      "nanded",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "G. No. 111, P. No. 46, Bela Nagar, Nanded, Maharashtra - 431605",
+    "city": "Nanded",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "G. No. 111, P. No. 46, Bela Nagar, Nanded, Maharashtra - 431605",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771726",
+    "updatedAt": "2026-09-02T16:06:04.771726"
+  },
+  {
+    "id": "address-41-1788345364",
+    "type": "address",
+    "title": "Highspring Jalgaon Office",
+    "keywords": [
+      "jalgaon",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "G-No.-25/1/3, PNO 3, Near Sub STN, Nimkhedi, Jalgaon, Maharashtra - 425001",
+    "city": "Jalgaon",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "G-No.-25/1/3, PNO 3, Near Sub STN, Nimkhedi, Jalgaon, Maharashtra - 425001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771729",
+    "updatedAt": "2026-09-02T16:06:04.771729"
+  },
+  {
+    "id": "address-42-1788345364",
+    "type": "address",
+    "title": "Highspring Baramati Office",
+    "keywords": [
+      "baramati",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Gate No 134/3/1/2/2/2/1 Devkate Park, Baramati (MCL), Pune, Maharashtra - 413102",
+    "city": "Baramati",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Gate No 134/3/1/2/2/2/1 Devkate Park, Baramati (MCL), Pune, Maharashtra - 413102",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771731",
+    "updatedAt": "2026-09-02T16:06:04.771732"
+  },
+  {
+    "id": "address-43-1788345364",
+    "type": "address",
+    "title": "Highspring Dhule Office",
+    "keywords": [
+      "dhule",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "P No.65, S No.26/1, Deepmala Soc. Deopur, Dhule, Maharashtra - 424001",
+    "city": "Dhule",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "P No.65, S No.26/1, Deepmala Soc. Deopur, Dhule, Maharashtra - 424001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771736",
+    "updatedAt": "2026-09-02T16:06:04.771737"
+  },
+  {
+    "id": "address-44-1788345364",
+    "type": "address",
+    "title": "Highspring Amravati Office",
+    "keywords": [
+      "amravati",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Plot No-32, NR RC Thakare House, Shrihari nager, Amravati, Maharashtra - 444603",
+    "city": "Amravati",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Plot No-32, NR RC Thakare House, Shrihari nager, Amravati, Maharashtra - 444603",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771739",
+    "updatedAt": "2026-09-02T16:06:04.771740"
+  },
+  {
+    "id": "address-45-1788345364",
+    "type": "address",
+    "title": "Highspring Jalna Office",
+    "keywords": [
+      "jalna",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Hno. 1-27-2862-83-Narayannagar JLN, Jalna, Maharashtra - 431203",
+    "city": "Jalna",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Hno. 1-27-2862-83-Narayannagar JLN, Jalna, Maharashtra - 431203",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771742",
+    "updatedAt": "2026-09-02T16:06:04.771742"
+  },
+  {
+    "id": "address-46-1788345364",
+    "type": "address",
+    "title": "Highspring Yavatmal Office",
+    "keywords": [
+      "yavatmal",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Bhumi Abhilekh, Karmachari Society, Wadgaon, Yavatmal, Maharashtra - 445001",
+    "city": "Yavatmal",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Bhumi Abhilekh, Karmachari Society, Wadgaon, Yavatmal, Maharashtra - 445001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771745",
+    "updatedAt": "2026-09-02T16:06:04.771745"
+  },
+  {
+    "id": "address-47-1788345364",
+    "type": "address",
+    "title": "Highspring Beed Office",
+    "keywords": [
+      "beed",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "H.No.3-3-856, Barshi Road, BID,( MCI), Maharashtra - 431122",
+    "city": "Beed",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "H.No.3-3-856, Barshi Road, BID,( MCI), Maharashtra - 431122",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771749",
+    "updatedAt": "2026-09-02T16:06:04.771749"
+  },
+  {
+    "id": "address-48-1788345364",
+    "type": "address",
+    "title": "Highspring Solapur Office",
+    "keywords": [
+      "solapur",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "105/196, UMA S G Nirman Sanstha M Peth, Solapur, Solapur, Maharashtra - 413001",
+    "city": "Solapur",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "105/196, UMA S G Nirman Sanstha M Peth, Solapur, Solapur, Maharashtra - 413001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771752",
+    "updatedAt": "2026-09-02T16:06:04.771752"
+  },
+  {
+    "id": "address-49-1788345364",
+    "type": "address",
+    "title": "Highspring Buldhana Office",
+    "keywords": [
+      "buldhana",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Surey No.02, Plot No.111, Jijamata Nagar, Buldana-M C1, Maharashtra - 443001",
+    "city": "Buldhana",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Surey No.02, Plot No.111, Jijamata Nagar, Buldana-M C1, Maharashtra - 443001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771754",
+    "updatedAt": "2026-09-02T16:06:04.771755"
+  },
+  {
+    "id": "address-50-1788345364",
+    "type": "address",
+    "title": "Highspring Washim Office",
+    "keywords": [
+      "washim",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Soudagar Pura Washim, Maharashtra - 444505",
+    "city": "Washim",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Soudagar Pura Washim, Maharashtra - 444505",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771757",
+    "updatedAt": "2026-09-02T16:06:04.771758"
+  },
+  {
+    "id": "address-51-1788345364",
+    "type": "address",
+    "title": "Highspring Mumbai Office",
+    "keywords": [
+      "mumbai",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "First Floor, Buildings No. F1/101, F1/102, F1/103, & F1/104 Dharam Square, Sonale Village, Bhiwandi, Maharashtra - 421302",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "First Floor, Buildings No. F1/101, F1/102, F1/103, & F1/104 Dharam Square, Sonale Village, Bhiwandi, Maharashtra - 421302",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771760",
+    "updatedAt": "2026-09-02T16:06:04.771761"
+  },
+  {
+    "id": "address-52-1788345364",
+    "type": "address",
+    "title": "Highspring Malegaon Office",
+    "keywords": [
+      "malegaon",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "S34/2 P59 Near TV Centre Malegaon Camp, Malegaon, Nashik, Maharashtra - 423106",
+    "city": "Malegaon",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "S34/2 P59 Near TV Centre Malegaon Camp, Malegaon, Nashik, Maharashtra - 423106",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771763",
+    "updatedAt": "2026-09-02T16:06:04.771764"
+  },
+  {
+    "id": "address-53-1788345364",
+    "type": "address",
+    "title": "Highspring Akola Office",
+    "keywords": [
+      "akola",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Near Dawale College Chachondi Road, Mothi Umari Akola, Maharashtra - 444001",
+    "city": "Akola",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Near Dawale College Chachondi Road, Mothi Umari Akola, Maharashtra - 444001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771766",
+    "updatedAt": "2026-09-02T16:06:04.771766"
+  },
+  {
+    "id": "address-54-1788345364",
+    "type": "address",
+    "title": "Highspring Pune Office",
+    "keywords": [
+      "pune",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "H.No. 28695 Gat No. 669 Office, Ground Floor, Swara Heights, Balaji Park Lane No.2 Kesnand Road, Wagholi Pune, Maharashtra - 412207",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "H.No. 28695 Gat No. 669 Office, Ground Floor, Swara Heights, Balaji Park Lane No.2 Kesnand Road, Wagholi Pune, Maharashtra - 412207",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771769",
+    "updatedAt": "2026-09-02T16:06:04.771769"
+  },
+  {
+    "id": "address-55-1788345364",
+    "type": "address",
+    "title": "Highspring Pune Office",
+    "keywords": [
+      "pune",
+      "maharashtra",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Sr.no. 12/1A, Mundhwa-Kharadi Bypass, Kharadi South Main Road, Kharadi, Pune Maharastra - 411014",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "language": "Marathi",
+    "gstin": "27AAOFV6331M1ZI",
+    "address": "Sr.no. 12/1A, Mundhwa-Kharadi Bypass, Kharadi South Main Road, Kharadi, Pune Maharastra - 411014",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771771",
+    "updatedAt": "2026-09-02T16:06:04.771772"
+  },
+  {
+    "id": "address-56-1788345364",
+    "type": "address",
+    "title": "Highspring Tiruchirappalli Office",
+    "keywords": [
+      "tiruchirappalli",
+      "tamil nadu",
+      "office"
+    ],
+    "category": "Address",
+    "description": "27/3, Amarar Jeeva Street, Tiruchirappalli, Tamil Nadu - 620020",
+    "city": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "language": "Tamil",
+    "gstin": "33AAOFV6331M1ZP",
+    "address": "27/3, Amarar Jeeva Street, Tiruchirappalli, Tamil Nadu - 620020",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771774",
+    "updatedAt": "2026-09-02T16:06:04.771775"
+  },
+  {
+    "id": "address-57-1788345364",
+    "type": "address",
+    "title": "Highspring Madurai Office",
+    "keywords": [
+      "madurai",
+      "tamil nadu",
+      "office"
+    ],
+    "category": "Address",
+    "description": "115, Collector office Compound , Indira Nagar, Alavandan, Madurai, Tamil Nadu - 625020",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "language": "Tamil",
+    "gstin": "33AAOFV6331M1ZP",
+    "address": "115, Collector office Compound , Indira Nagar, Alavandan, Madurai, Tamil Nadu - 625020",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771777",
+    "updatedAt": "2026-09-02T16:06:04.771778"
+  },
+  {
+    "id": "address-58-1788345364",
+    "type": "address",
+    "title": "Highspring Thanjavur Office",
+    "keywords": [
+      "thanjavur",
+      "tamil nadu",
+      "office"
+    ],
+    "category": "Address",
+    "description": "No.765, 1st Floor, Thiruvalluvar Nagar 2nd Street, Pudikottai Road, Thanjavur, Tamil Nadu - 613005",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "language": "Tamil",
+    "gstin": "33AAOFV6331M1ZP",
+    "address": "No.765, 1st Floor, Thiruvalluvar Nagar 2nd Street, Pudikottai Road, Thanjavur, Tamil Nadu - 613005",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771780",
+    "updatedAt": "2026-09-02T16:06:04.771781"
+  },
+  {
+    "id": "address-59-1788345364",
+    "type": "address",
+    "title": "Highspring Tirunelveli Office",
+    "keywords": [
+      "tirunelveli",
+      "tamil nadu",
+      "office"
+    ],
+    "category": "Address",
+    "description": "No.13,India Cements Officers Colony, Near Vedic School, Dharapuram, Tachanallur,Tirunelveli, Tamil Nadu - 627358",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "language": "Tamil",
+    "gstin": "33AAOFV6331M1ZP",
+    "address": "No.13,India Cements Officers Colony, Near Vedic School, Dharapuram, Tachanallur,Tirunelveli, Tamil Nadu - 627358",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771783",
+    "updatedAt": "2026-09-02T16:06:04.771784"
+  },
+  {
+    "id": "address-60-1788345364",
+    "type": "address",
+    "title": "Highspring Chennai Office",
+    "keywords": [
+      "chennai",
+      "tamil nadu",
+      "office"
+    ],
+    "category": "Address",
+    "description": "D/5, Ambedkar Salai, Palavakkam, Veeramani Salai, Tamil Nadu - 600041",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "language": "Tamil",
+    "gstin": "33AAOFV6331M1ZP",
+    "address": "D/5, Ambedkar Salai, Palavakkam, Veeramani Salai, Tamil Nadu - 600041",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771786",
+    "updatedAt": "2026-09-02T16:06:04.771787"
+  },
+  {
+    "id": "address-61-1788345364",
+    "type": "address",
+    "title": "Highspring Karimnagar Office",
+    "keywords": [
+      "karimnagar",
+      "telangana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "7-4-69, Kashmir Gadda , Karimnagar, Telangana - 505001",
+    "city": "Karimnagar",
+    "state": "Telangana",
+    "language": "Telugu",
+    "gstin": "36AAOFV6331M1ZJ",
+    "address": "7-4-69, Kashmir Gadda , Karimnagar, Telangana - 505001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771789",
+    "updatedAt": "2026-09-02T16:06:04.771790"
+  },
+  {
+    "id": "address-62-1788345364",
+    "type": "address",
+    "title": "Highspring Hanam Konda Office",
+    "keywords": [
+      "hanam konda",
+      "telangana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "H. No:3-14-508, Reddy colony, Hanam Konda, Warangal, Telangana - 506001",
+    "city": "Hanam Konda",
+    "state": "Telangana",
+    "language": "Telugu",
+    "gstin": "36AAOFV6331M1ZJ",
+    "address": "H. No:3-14-508, Reddy colony, Hanam Konda, Warangal, Telangana - 506001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771792",
+    "updatedAt": "2026-09-02T16:06:04.771793"
+  },
+  {
+    "id": "address-63-1788345364",
+    "type": "address",
+    "title": "Highspring Siddipet Office",
+    "keywords": [
+      "siddipet",
+      "telangana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "12-1-117, Mohini Pura, Siddipet, Telangana - 502103",
+    "city": "Siddipet",
+    "state": "Telangana",
+    "language": "Telugu",
+    "gstin": "36AAOFV6331M1ZJ",
+    "address": "12-1-117, Mohini Pura, Siddipet, Telangana - 502103",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771795",
+    "updatedAt": "2026-09-02T16:06:04.771796"
+  },
+  {
+    "id": "address-64-1788345364",
+    "type": "address",
+    "title": "Highspring Mahbubnagar Office",
+    "keywords": [
+      "mahbubnagar",
+      "andhra pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Survey No.79, Plot No.13, Palakonda, Mahbubnagar, Andhra Pradesh - 509001",
+    "city": "Mahbubnagar",
+    "state": "Andhra Pradesh",
+    "language": "Telugu",
+    "gstin": "37AAOFV6331M1ZH",
+    "address": "Survey No.79, Plot No.13, Palakonda, Mahbubnagar, Andhra Pradesh - 509001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771798",
+    "updatedAt": "2026-09-02T16:06:04.771798"
+  },
+  {
+    "id": "address-65-1788345364",
+    "type": "address",
+    "title": "Highspring Hyderabad Office",
+    "keywords": [
+      "hyderabad",
+      "telangana",
+      "office"
+    ],
+    "category": "Address",
+    "description": "9-10-224/153/A, Golconda, Hyderabad, Telangana - 500008",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "language": "Telugu",
+    "gstin": "36AAOFV6331M1ZJ",
+    "address": "9-10-224/153/A, Golconda, Hyderabad, Telangana - 500008",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771800",
+    "updatedAt": "2026-09-02T16:06:04.771801"
+  },
+  {
+    "id": "address-66-1788345364",
+    "type": "address",
+    "title": "Highspring Shahjahanpur Office",
+    "keywords": [
+      "shahjahanpur",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Gadiyana Chungi, SPN. Shahjahanpur Uttar Pradesh - 242001",
+    "city": "Shahjahanpur",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "Gadiyana Chungi, SPN. Shahjahanpur Uttar Pradesh - 242001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771803",
+    "updatedAt": "2026-09-02T16:06:04.771804"
+  },
+  {
+    "id": "address-67-1788345364",
+    "type": "address",
+    "title": "Highspring Pilibhit Office",
+    "keywords": [
+      "pilibhit",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Desh Nagar, Near Sewa Yojan Office, Pilibhit, Uttar Pradesh - 262001",
+    "city": "Pilibhit",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "Desh Nagar, Near Sewa Yojan Office, Pilibhit, Uttar Pradesh - 262001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771808",
+    "updatedAt": "2026-09-02T16:06:04.771809"
+  },
+  {
+    "id": "address-68-1788345364",
+    "type": "address",
+    "title": "Highspring Shamli Office",
+    "keywords": [
+      "shamli",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Slake Chand Vihar, Shamli, Uttar Pradesh - 247776",
+    "city": "Shamli",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "Slake Chand Vihar, Shamli, Uttar Pradesh - 247776",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771910",
+    "updatedAt": "2026-09-02T16:06:04.771916"
+  },
+  {
+    "id": "address-69-1788345364",
+    "type": "address",
+    "title": "Highspring Jhansi Office",
+    "keywords": [
+      "jhansi",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Mohan Lal 592/A Datia Gate Jhansi, MLPH_1, Jhansi, Uttar Pradesh - 284002",
+    "city": "Jhansi",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "Mohan Lal 592/A Datia Gate Jhansi, MLPH_1, Jhansi, Uttar Pradesh - 284002",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771922",
+    "updatedAt": "2026-09-02T16:06:04.771923"
+  },
+  {
+    "id": "address-70-1788345364",
+    "type": "address",
+    "title": "Highspring Ghazipur Office",
+    "keywords": [
+      "ghazipur",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "110,Badibag, Ghazipur, Uttar Pradesh - 233001",
+    "city": "Ghazipur",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "110,Badibag, Ghazipur, Uttar Pradesh - 233001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771926",
+    "updatedAt": "2026-09-02T16:06:04.771927"
+  },
+  {
+    "id": "address-71-1788345364",
+    "type": "address",
+    "title": "Highspring Mathura Office",
+    "keywords": [
+      "mathura",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Bhains Bahora, Narayan market, Cantt Mathura, Mathura-Uttar Pradesh - 281001",
+    "city": "Mathura",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "Bhains Bahora, Narayan market, Cantt Mathura, Mathura-Uttar Pradesh - 281001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771929",
+    "updatedAt": "2026-09-02T16:06:04.771930"
+  },
+  {
+    "id": "address-72-1788345364",
+    "type": "address",
+    "title": "Highspring Bareilly Office",
+    "keywords": [
+      "bareilly",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "4, Ram Vatika, Bareilly, Bareilly, Uttar Pradesh - 243003",
+    "city": "Bareilly",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "4, Ram Vatika, Bareilly, Bareilly, Uttar Pradesh - 243003",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771932",
+    "updatedAt": "2026-09-02T16:06:04.771933"
+  },
+  {
+    "id": "address-73-1788345364",
+    "type": "address",
+    "title": "Highspring Moradabad Office",
+    "keywords": [
+      "moradabad",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Samrat Ashok Nagar Near Saini Sansthan, Moradabad, Uttar Pradesh - 244001",
+    "city": "Moradabad",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "Samrat Ashok Nagar Near Saini Sansthan, Moradabad, Uttar Pradesh - 244001",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771935",
+    "updatedAt": "2026-09-02T16:06:04.771936"
+  },
+  {
+    "id": "address-74-1788345364",
+    "type": "address",
+    "title": "Highspring Lucknow Office",
+    "keywords": [
+      "lucknow",
+      "uttar pradesh",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Fun Republic, Lohia Path, Gomti Nagar, Lucknow, Uttar Pradesh - 226010",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "language": "Hindi",
+    "gstin": "09AAOFV6331M1ZG",
+    "address": "Fun Republic, Lohia Path, Gomti Nagar, Lucknow, Uttar Pradesh - 226010",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771938",
+    "updatedAt": "2026-09-02T16:06:04.771939"
+  },
+  {
+    "id": "address-75-1788345364",
+    "type": "address",
+    "title": "Highspring Haridwar Office",
+    "keywords": [
+      "haridwar",
+      "uttarakhand",
+      "office"
+    ],
+    "category": "Address",
+    "description": "G-48, Shivalik Nagar, Haridwar, Uttrakhand - 249403",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "language": "Hindi",
+    "gstin": "05AAOFV6331M1ZO",
+    "address": "G-48, Shivalik Nagar, Haridwar, Uttrakhand - 249403",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771941",
+    "updatedAt": "2026-09-02T16:06:04.771942"
+  },
+  {
+    "id": "address-76-1788345364",
+    "type": "address",
+    "title": "Highspring Haldwani Office",
+    "keywords": [
+      "haldwani",
+      "uttarakhand",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Bhagwan pur, Jaisingh Kathghariya, Haldwani Uttarakhand - 263139",
+    "city": "Haldwani",
+    "state": "Uttarakhand",
+    "language": "Hindi",
+    "gstin": "05AAOFV6331M1ZO",
+    "address": "Bhagwan pur, Jaisingh Kathghariya, Haldwani Uttarakhand - 263139",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771944",
+    "updatedAt": "2026-09-02T16:06:04.771945"
+  },
+  {
+    "id": "address-77-1788345364",
+    "type": "address",
+    "title": "Highspring Krishnanagar Office",
+    "keywords": [
+      "krishnanagar",
+      "west bengal",
+      "office"
+    ],
+    "category": "Address",
+    "description": "Dr.Sachin Sen Road, Netaji Market Krishnanagar, Nadia, Krishnanagar, West Bengal - 741101",
+    "city": "Krishnanagar",
+    "state": "West Bengal",
+    "language": "Bengali",
+    "gstin": "19AAOFV6331M1ZF",
+    "address": "Dr.Sachin Sen Road, Netaji Market Krishnanagar, Nadia, Krishnanagar, West Bengal - 741101",
+    "tags": [],
+    "createdAt": "2026-09-02T16:06:04.771948",
+    "updatedAt": "2026-09-02T16:06:04.771948"
+  }
+]

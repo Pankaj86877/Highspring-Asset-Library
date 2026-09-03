@@ -1,7 +1,7 @@
 "use client";
 
 import { SearchResource } from "@/lib/types";
-import { Folder, MapPin, ExternalLink, Share2, Heart, Copy, Check, Video, Image as ImageIcon, FileText, Building, Link as LinkIcon, Users, ShieldCheck, Calendar, HardDrive } from "lucide-react";
+import { Folder, MapPin, ExternalLink, Share2, Heart, Copy, Check, Video, Image as ImageIcon, FileText, Building, Link as LinkIcon, Users, ShieldCheck, Calendar, HardDrive, Building2, Globe, Fingerprint, Mailbox, Map, UserSquare2, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
@@ -12,7 +12,9 @@ interface ResultCardProps {
 
 const getCategoryIcon = (category: string) => {
   switch (category) {
-    case "Addresses": return MapPin;
+    case "Address": return MapPin;
+    case "Links": return LinkIcon;
+    case "Employee": return Users;
     case "Images": return ImageIcon;
     case "Videos": return Video;
     case "Documents": return FileText;
@@ -30,17 +32,165 @@ export function ResultCard({ resource }: ResultCardProps) {
   const [favorite, setFavorite] = useState(false);
   const Icon = getCategoryIcon(resource.category);
 
-  const handleCopy = () => {
-    const link = resource.googleDriveLink || resource.websiteLink || resource.googleMapsLink || "";
-    if (link) {
-      navigator.clipboard.writeText(link);
+  const handleCopy = (textToCopy: string) => {
+    if (textToCopy) {
+      navigator.clipboard.writeText(textToCopy);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     }
   };
 
-  const getPrimaryLink = () => resource.googleDriveLink || resource.websiteLink || resource.googleMapsLink;
+  const getPrimaryLink = () => resource.googleDriveLink || resource.documentLink || resource.websiteLink || resource.googleMapsLink || resource.linkedinUrl;
 
+  // --- ADDRESS CARD RENDERING ---
+  if (resource.type === "address") {
+    const googleMapsUrl = resource.googleMapsLink || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(resource.address || "")}`;
+    return (
+      <motion.div 
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm hover:border-blue-500 transition-colors"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+          <div className="space-y-3">
+            <div className="flex items-center gap-2 text-slate-900 dark:text-white">
+              <Building2 className="w-5 h-5 text-blue-500 shrink-0" />
+              <span className="font-medium">City:</span>
+              <span className="text-slate-600 dark:text-slate-300">{resource.city}</span>
+            </div>
+            <div className="flex items-center gap-2 text-slate-900 dark:text-white">
+              <MapPin className="w-5 h-5 text-red-500 shrink-0" />
+              <span className="font-medium">State:</span>
+              <span className="text-slate-600 dark:text-slate-300">{resource.state}</span>
+            </div>
+            <div className="flex items-center gap-2 text-slate-900 dark:text-white">
+              <Globe className="w-5 h-5 text-emerald-500 shrink-0" />
+              <span className="font-medium">Language:</span>
+              <span className="text-slate-600 dark:text-slate-300">{resource.language}</span>
+            </div>
+          </div>
+          
+          <div className="space-y-3">
+            <div className="flex items-center gap-2 text-slate-900 dark:text-white">
+              <Fingerprint className="w-5 h-5 text-purple-500 shrink-0" />
+              <span className="font-medium">GSTIN:</span>
+              <span className="text-slate-600 dark:text-slate-300 font-mono">{resource.gstin}</span>
+            </div>
+            <div className="flex items-start gap-2 text-slate-900 dark:text-white">
+              <Mailbox className="w-5 h-5 text-orange-500 shrink-0 mt-0.5" />
+              <span className="font-medium">Address:</span>
+              <span className="text-slate-600 dark:text-slate-300 flex-1">{resource.address}</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-slate-100 dark:border-slate-800">
+          <a 
+            href={googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 bg-blue-50 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-500/20 rounded-lg text-sm font-medium transition-colors"
+          >
+            <Map className="w-4 h-4" />
+            Open in Google Maps
+          </a>
+          <button 
+            onClick={() => handleCopy(resource.address || "")}
+            className="flex items-center gap-2 px-4 py-2 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg text-sm font-medium transition-colors"
+          >
+            {copied ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
+            Copy Address
+          </button>
+          <button 
+            onClick={() => handleCopy(resource.gstin || "")}
+            className="flex items-center gap-2 px-4 py-2 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg text-sm font-medium transition-colors"
+          >
+            {copied ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
+            Copy GSTIN
+          </button>
+        </div>
+      </motion.div>
+    );
+  }
+
+  // --- LINK CARD RENDERING ---
+  if (resource.type === "link") {
+    return (
+      <motion.div 
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm hover:border-blue-500 transition-colors"
+      >
+        <div className="flex items-start gap-4">
+          <div className="w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-500/10 text-blue-500 flex items-center justify-center shrink-0">
+            <LinkIcon className="w-6 h-6" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <a href={resource.websiteLink} target="_blank" rel="noopener noreferrer" className="block hover:underline">
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-white truncate">{resource.title}</h3>
+            </a>
+            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400 line-clamp-2">{resource.description}</p>
+            
+            <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center gap-4">
+              <a 
+                href={resource.websiteLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
+              >
+                Visit Website <ArrowRight className="w-4 h-4" />
+              </a>
+              <button 
+                onClick={() => handleCopy(resource.websiteLink || "")}
+                className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
+              >
+                {copied ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
+              </button>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    );
+  }
+
+  // --- EMPLOYEE CARD RENDERING ---
+  if (resource.type === "employee") {
+    return (
+      <motion.div 
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm hover:border-blue-500 transition-colors"
+      >
+        <div className="flex items-start gap-4">
+          <div className="w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 flex items-center justify-center shrink-0">
+            <UserSquare2 className="w-6 h-6" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white truncate">{resource.title}</h3>
+            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400 truncate">{resource.designation}</p>
+            
+            <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center">
+              {resource.linkedinUrl ? (
+                <a 
+                  href={resource.linkedinUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-medium transition-colors"
+                >
+                  <Globe className="w-4 h-4" />
+                  LinkedIn Profile
+                </a>
+              ) : (
+                <span className="text-sm text-slate-400">No LinkedIn profile available</span>
+              )}
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    );
+  }
+
+  // --- STANDARD CARD RENDERING (Google Drive, Documents) ---
   return (
     <motion.div 
       initial={{ opacity: 0, y: 10 }}
@@ -124,7 +274,7 @@ export function ResultCard({ resource }: ResultCardProps) {
           )}
           
           <button 
-            onClick={handleCopy}
+            onClick={() => handleCopy(getPrimaryLink() || "")}
             title="Copy Link"
             className="p-2 text-slate-500 hover:text-slate-900 hover:bg-slate-100 dark:hover:text-white dark:hover:bg-slate-800 rounded-lg transition-colors"
           >
@@ -155,3 +305,4 @@ export function ResultCard({ resource }: ResultCardProps) {
     </motion.div>
   );
 }
+

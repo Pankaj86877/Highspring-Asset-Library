@@ -1,6 +1,4 @@
-import { SearchResource } from "./types";
-
-export const mockResources: SearchResource[] = [
+[
   {
     "id": "drive-1",
     "title": "1to1 Help \"Mindsprin...",
@@ -1757,5 +1755,79 @@ export const mockResources: SearchResource[] = [
     "provider": "Google Drive",
     "createdAt": "2026-08-10T10:57:22.118Z",
     "updatedAt": "2026-08-10T10:57:22.119Z"
+  },
+  {
+    "id": "drive-1788341162505",
+    "title": "Custom Icon Library Creation",
+    "keywords": [
+      "custom icon library",
+      "icon library",
+      "custom icons",
+      "icon design",
+      "icon set",
+      "ui icons",
+      "ux icons",
+      "svg icons",
+      "vector icons",
+      "design system",
+      "iconography",
+      "brand icons",
+      "highspring icons",
+      "design assets",
+      "ui kit",
+      "figma icons",
+      "reusable icons",
+      "component library",
+      "visual assets",
+      "design elements"
+    ],
+    "category": "Google Drive",
+    "description": "Google Drive folder for Custom Icon Library Creation",
+    "tags": [
+      "custom icon library",
+      "icon library",
+      "custom icons"
+    ],
+    "googleDriveLink": "https://drive.google.com/drive/folders/1DukAJbFikvADA_VW3yASeVlPxT4aRhtM?usp=drive_link",
+    "provider": "Google Drive",
+    "createdAt": "2026-09-02T09:26:02.505Z",
+    "updatedAt": "2026-09-02T09:26:02.505Z"
+  },
+  {
+    "id": "drive-1788341230492",
+    "title": "Service Icons",
+    "keywords": [
+      "service icons",
+      "services",
+      "solution icons",
+      "capability icons",
+      "offering icons",
+      "business services",
+      "consulting services",
+      "technology services",
+      "corporate icons",
+      "custom icons",
+      "icon library",
+      "ui icons",
+      "website icons",
+      "presentation icons",
+      "svg icons",
+      "vector icons",
+      "design assets",
+      "highspring services",
+      "capabilities",
+      "solutions"
+    ],
+    "category": "Google Drive",
+    "description": "Google Drive folder for Service Icons",
+    "tags": [
+      "service icons",
+      "services",
+      "solution icons"
+    ],
+    "googleDriveLink": "https://drive.google.com/drive/folders/1rleC6W4MYrrjVRCKQgzV_MUx_J9lLqFb?usp=drive_link",
+    "provider": "Google Drive",
+    "createdAt": "2026-09-02T09:27:10.492Z",
+    "updatedAt": "2026-09-02T09:27:10.492Z"
   }
-];
+]
